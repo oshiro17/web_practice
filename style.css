@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-body {
+/* body {
     width: 1280px;
     height: 2928px;
 
-}
+} */
 
 header {
     width: 1280px;
@@ -33,10 +33,15 @@ header {
 }
 
 .mainvisual {
+    margin-bottom: 80px;
+}
+
+img {
+    width: 100%;
+    max-width: 1920px;
     height: 420px;
-    width: 1280px;
-    margin-bottom: 130px;
-    max-width: 100%;
+    /* 横に広げたりしない */
+    object-fit: cover;
 }
 
 
