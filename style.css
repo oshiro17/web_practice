@@ -4,15 +4,13 @@
 }
 
 header {
-    width: 1280px;
+    width: 100vw;
     height: 270px;
     display: flex;
 }
 
 li {
     list-style: none;
-    /* padding: 0;
-    margin: 0; */
 }
 
 
@@ -21,14 +19,21 @@ ul {
 }
 
 .head {
-    margin: 120px 260px 120px 260px
+    width: 50%;
+    text-align: center;
+    line-height: 270px;
+}
+
+
+header nav {
+    width: 50%;
 }
 
 .nav-list {
     padding-left: 0;
     display: flex;
     height: 21px;
-    width: 212px;
+    width: 70%;
     justify-content: space-between;
     margin-top: 120px;
 }
@@ -155,4 +160,16 @@ button {
     color: white;
     height: 50px;
     width: 100px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    header {
+        width: auto;
+    }
+
+    .wrapper {
+        padding: 10%;
+    }
 }
