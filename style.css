@@ -11,6 +11,13 @@ header {
 
 li {
     list-style: none;
+    /* padding: 0;
+    margin: 0; */
+}
+
+
+ul {
+    padding-left: 0;
 }
 
 .head {
@@ -47,7 +54,7 @@ li {
     max-width: 960px;
     margin: 0 auto 130px auto;
     font-size: 0.9rem;
-    padding: 0 4%;
+    /* padding: 0 4%; */
 }
 
 .wrapper h2 {
@@ -57,20 +64,30 @@ li {
 }
 
 /* about */
+.about {
+    padding: 0;
+}
+
 .about ul {
-    display: flex;
+    /* display: flex; */
+    padding: 0px;
+
+}
+
+.about_li {
+    margin-bottom: 10px;
 }
 
 /* works */
 #works ul {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 864px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #works li {
     width: 264px;
     margin-bottom: 23px;
-    margin: 0, 24, 23, 0;
 }
