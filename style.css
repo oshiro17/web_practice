@@ -144,12 +144,12 @@ header nav {
 
 #userName {
     height: 20px;
-    width: 50%;
+    width: 100%;
 }
 
 #email {
     height: 20px;
-    width: 50%;
+    width: 100%;
 }
 
 #message {
