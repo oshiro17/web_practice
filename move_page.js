@@ -1,10 +1,7 @@
 window.onload = function () {
     document.querySelector('#li_about').addEventListener('click', function () {
         const aboutSection = document.querySelector('#about');
-        aboutSection.scrollIntoView({ behavior: 'smooth' });
-        let userName = document.getElementById('userName').value;
-        console.log(userName);
-
+        aboutSection.scrollIntoView({});
     });
     document.querySelector('#li_works').addEventListener('click', function () {
         const aboutSection = document.querySelector('#works');
@@ -18,10 +15,9 @@ window.onload = function () {
         const aboutSection = document.querySelector('#contact');
         aboutSection.scrollIntoView({ behavior: 'smooth' });
     });
-    document.querySelector('#contact_button').addEventListener('click', function(){jj
+    document.querySelector('#contact_button').addEventListener('click', function(){
         let userName = document.getElementById('userName').value;
         if (!userName) {
-            //throw ("userName is NULl");
           var tableElem = document.getElementById("contact");
           var createElement = document.createElement("h1");
           createElement.innerHTML = "userName is null";
