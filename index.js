@@ -18,8 +18,8 @@ window.onload = function () {
   document.querySelector('#contact_button').addEventListener('click', function () {
     let userName = document.getElementById('userName').value;
     if (!userName) {
-      var tableElem = document.getElementById("contact");
-      var createElement = document.createElement("h1");
+      const tableElem = document.getElementById("contact");
+      const createElement = document.createElement("h1");
       createElement.innerHTML = "userName is null";
       tableElem.appendChild(createElement);
     }
