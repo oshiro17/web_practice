@@ -18,6 +18,14 @@ window.onload = function () {
         const aboutSection = document.querySelector('#contact');
         aboutSection.scrollIntoView({ behavior: 'smooth' });
     });
-
-
+    document.querySelector('#contact_button').addEventListener('click', function(){jj
+        let userName = document.getElementById('userName').value;
+        if (!userName) {
+            //throw ("userName is NULl");
+          var tableElem = document.getElementById("contact");
+          var createElement = document.createElement("h1");
+          createElement.innerHTML = "userName is null";
+          tableElem.appendChild(createElement);
+        }
+      });
 }
