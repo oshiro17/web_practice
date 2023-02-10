@@ -114,18 +114,24 @@
         <h2>Contact</h2>
         <form action="">
           <dl>
-            <div>
-              <dt>name</dt>
-              <dd><input type="text" id="userName" name="name" required minlength="4" placeholder="hogehogeplaceholder" maxlength="8" size="10" /></dd>
-            </div>
-            <div>
-              <dt>e-mail</dt>
-              <dd><input type="email" id="email" name="email" required minlength="4" placeholder="hogehogeplaceholder" axlength="8" size="10" /></dd>
-            </div>
-            <div>
-              <dt>message</dt>
-              <dd><textarea id="message" name="" required minlength="4" size="10" placeholder="hogehogeplaceholder"placeholder="hogehogeplaceholder"mplaceholder="hogehogeplaceholder"placeholder="hogehogeplaceholder"></textarea></dd>
-            </div>
+            <label for="name-contact">
+              <div>
+                <dt>name</dt>
+                <dd><input type="text" id="userName" name="name" required minlength="4" placeholder="hogehogeplaceholder" maxlength="8" size="10" /></dd>
+              </div>
+            </label>
+            <label for="email-box">
+              <div>
+                <dt>e-mail</dt>
+                <dd><input type="email" id="email" name="email" required minlength="4" placeholder="hogehogeplaceholder" axlength="8" size="10" /></dd>
+              </div>
+            </label>
+            <label for="message">
+              <div>
+                <dt>message</dt>
+                <dd><textarea id="message" name="" required minlength="4" size="10" placeholder="hogehogeplaceholder"></textarea></dd>
+              </div>
+            </label>
           </dl>
           <button id="contact-button">送信</button>
         </form>
