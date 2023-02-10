@@ -16,7 +16,7 @@ window.onload = function () {
     aboutSection.scrollIntoView({ behavior: 'smooth' });
   });
   document.querySelector('#contact_button').addEventListener('click', function () {
-    let userName = document.getElementById('userName').value;
+    const userName = document.getElementById('userName').value;
     if (!userName) {
       const tableElem = document.getElementById("contact");
       const createElement = document.createElement("h1");
