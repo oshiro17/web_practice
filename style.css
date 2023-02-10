@@ -133,21 +133,13 @@ header nav {
     display: flex;
     padding-bottom: 20px;
 }
-@media screen and (min-width: 791px) {
-    label{
-        width :10%;
-    }
-    #userName {
-        margin-left:15%;
-    }
-    
-    #email {
-        margin-left:15%;
-    }
-    
-    #message {
-        margin-left:15%;
-    }
+
+#contact dd {
+    width: 100%;
+}
+
+#contact dt {
+    width: 30%;
 }
 
 #userName {
