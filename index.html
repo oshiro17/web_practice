@@ -10,6 +10,7 @@
   <script src="./src/index.js"></script>
   <title>my-work</title>
 </head>
+
 <body>
   <!--head-->
   <header>
@@ -28,7 +29,7 @@
     <main class="main">
       <!--mainvisual-->
       <div id="mainvisual">
-        <img src="images/download.svg" class="mainvisual"></img>
+        <img src="images/download.svg" class="mainvisual"/>
       </div>
       <!--about-->
       <section id="about" class="wrapper">
@@ -55,22 +56,22 @@
         <h2>Works</h2>
         <ul>
           <li>
-            <img src="images/download.svg" class="img-item"></img>
+            <img src="images/download.svg" class="img-item"/>
           </li>
           <li>
-            <img src="images/download.svg" class="img-item"></img>
+            <img src="images/download.svg" class="img-item"/>
           </li>
           <li>
-            <img src="images/download.svg" class="img-item"></img>
+            <img src="images/download.svg" class="img-item"/>
           </li>
           <li>
-            <img src="images/download.svg" class="img-item"></img>
+            <img src="images/download.svg" class="img-item"/>
           </li>
           <li>
-            <img src="images/download.svg" class="img-item"></img>
+            <img src="images/download.svg" class="img-item"/>
           </li>
           <li>
-            <img src="images/download.svg" class="img-item"></img>
+            <img src="images/download.svg" class="img-item"/>
           </li>
 
         </ul>
@@ -115,16 +116,16 @@
         <form action="">
           <dl>
             <div>
-              <dt>name</dt>
-              <dd><input type="text" id="userName" name="name" required minlength="4" placeholder="hogehogeplaceholder" maxlength="8" size="10" /></dd>
+            <label for="text">text</label>
+                <input type="text" id="userName" name="name" required minlength="4" placeholder="山田　太郎" maxlength="8" size="10" />
             </div>
             <div>
-              <dt>e-mail</dt>
-              <dd><input type="email" id="email" name="email" required minlength="4" placeholder="hogehogeplaceholder" axlength="8" size="10" /></dd>
+            <label for="email">email</label>
+                <input type="email" id="email" name="email" required minlength="4" placeholder="nononono@nononono.com" axlength="8" size="10" />
             </div>
             <div>
-              <dt>message</dt>
-              <dd><textarea id="message" name="" required minlength="4" size="10" placeholder="hogehogeplaceholder"placeholder="hogehogeplaceholder"mplaceholder="hogehogeplaceholder"placeholder="hogehogeplaceholder"></textarea></dd>
+              <label for="message">message</label>
+                <textarea id="message" name="" required minlength="4" size="10" placeholder="hogehogeplaceholder"></textarea>
             </div>
           </dl>
           <button id="contact-button">送信</button>
