@@ -12,6 +12,7 @@ header {
 
 li {
     list-style: none;
+    word-wrap: break-word;
 }
 
 ul {
