@@ -20,7 +20,7 @@ window.onload = function () {
     if (!userName) {
       const tableElem = document.getElementById("contact");
       const createElement = document.createElement("h1");
-      createElement.innerHTML = "userName is null";
+      createElement.innerText = "userName is null";
       tableElem.appendChild(createElement);
     }
   });
