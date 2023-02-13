@@ -44,9 +44,25 @@ header nav {
     list-style: none;
     margin: auto;
 }
-
+#li-about:hover{
+    color: blue;
+    font-size: 160%;
+}
+#li-works:hover{
+    color: blue;
+    font-size: 160%;
+}   
+#li-news:hover{
+    color: blue;
+    font-size: 160%;
+}  
+#li-contact:hover{
+    color: blue;
+    font-size: 160%;
+}
 .mainvisual {
     margin-bottom: 80px;
+    font-size: 160px;
 }
 
 #mainvisual img {
