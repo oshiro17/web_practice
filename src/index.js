@@ -1,7 +1,7 @@
 window.onload = function () {
   document.querySelector('#li-about').addEventListener('click', function () {
     const aboutSection = document.querySelector('#about');
-    aboutSection.scrollIntoView({});
+    aboutSection.scrollIntoView({behavior: 'smooth'});
   });
   document.querySelector('#li-works').addEventListener('click', function () {
     const aboutSection = document.querySelector('#works');

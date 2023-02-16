@@ -10,6 +10,56 @@ header {
     display: flex;
 }
 
+.aiueo{
+    margin-left: 70%;
+    color: aquamarine;
+}
+.animetion_head{
+    background-color: black;
+    height: 500px;
+
+}
+
+.infometion{
+    background-color: black;
+    height:90%;
+    width:40%;
+}
+#circle {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    background: #ccc;
+    border-radius: 50%;
+    /* top: 0;
+    left: 0; */
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.info{
+    position:absolute;
+    /* color: fuchsia; */
+    /* top: 50%info;
+    right: 0%; */
+}
+
+.one{
+    top: 45%;
+    right: 0%; 
+}
+.two{
+    top :0%;
+    right: 40%;
+}
+.three{
+    top:45%;
+    rigtht: 0%;
+}
+
+.four{
+    top: 90%;
+    right:35%;
+}
 li {
     list-style: none;
     word-wrap: break-word;
@@ -44,9 +94,25 @@ header nav {
     list-style: none;
     margin: auto;
 }
-
+#li-about:hover{
+    color: blue;
+    font-size: 160%;
+}
+#li-works:hover{
+    color: blue;
+    font-size: 160%;
+}   
+#li-news:hover{
+    color: blue;
+    font-size: 160%;
+}  
+#li-contact:hover{
+    color: blue;
+    font-size: 160%;
+}
 .mainvisual {
     margin-bottom: 80px;
+    font-size: 160px;
 }
 
 #mainvisual img {
