@@ -3,12 +3,10 @@
   padding: 0;
   font-family: "Wawati SC";
 }
-
 li {
   list-style: none;
   word-wrap: break-word;
 }
-
 ul {
   padding-left: 0;
 }
@@ -17,45 +15,37 @@ header {
   width: 100vw;
   height: 270px;
   display: flex;
-
   .head {
     width: 30%;
     text-align: center;
     margin: auto;
   }
-
   nav {
     display: flex;
     width: 70%;
     text-align: center;
     margin: auto;
-
     .nav-list {
       display: flex;
       width: 70%;
       text-align: center;
       margin: auto;
-
       .nav-list-item {
         list-style: none;
         margin: auto;
       }
-
       #li-about:hover {
         color: blue;
         font-size: 160%;
       }
-
       #li-works:hover {
         color: blue;
         font-size: 160%;
       }
-
       #li-news:hover {
         color: blue;
         font-size: 160%;
       }
-
       #li-contact:hover {
         color: blue;
         font-size: 160%;
@@ -69,7 +59,6 @@ header {
     margin-bottom: 80px;
     font-size: 160px;
   }
-
   #mainvisual {
     img {
       width: 100%;
@@ -79,53 +68,39 @@ header {
       object-fit: cover;
     }
   }
-
   .animetion_head {
     background-color: black;
     height: 500px;
-
     .aiueo {
       margin-left: 70%;
       color: aquamarine;
     }
-
     .infometion {
       background-color: black;
       height: 90%;
       width: 40%;
-
       #circle {
         width: 100%;
         height: 100%;
         background: #ccc;
         border-radius: 50%;
-        /* top: 0;
-    left: 0; */
         transform: rotate(0deg);
         transition: 1s;
-
         .info {
           position: absolute;
-          /* color: fuchsia; */
-          /* top: 50%info;
-    right: 0%; */
         }
-
         .one {
           top: 45%;
           right: 0%;
         }
-
         .two {
           top: 0%;
           right: 40%;
         }
-
         .three {
           top: 45%;
           right: 82%;
         }
-
         .four {
           top: 90%;
           right: 35%;
@@ -138,7 +113,6 @@ header {
 .wrapper {
   max-width: 90%;
   margin: 0 10% 10% 10%;
-
   h2 {
     font-size: 1.5rem;
     font-family: "Wawati SC";
@@ -150,18 +124,13 @@ header {
 /* about */
 .about {
   padding: 0;
-
   ul {
     padding: 0px;
-
     .about-li {
       margin-bottom: 10px;
     }
   }
-
 }
-
-
 
 /* works */
 #works {
@@ -172,12 +141,10 @@ header {
     margin: 0px;
     padding: 0px;
   }
-
   li {
     width: 30%;
     margin-bottom: 23px;
   }
-
   .img-item {
     width: 100%;
   }
@@ -197,16 +164,13 @@ header {
       padding: 20px 0;
     }
   }
-
   .first-div {
     border-top: 1px solid black;
   }
-
   dt {
     float: left;
     clear: left;
   }
-
   dd {
     float: left;
     margin-left: 1em;
@@ -218,48 +182,42 @@ header {
     display: flex;
     padding-bottom: 20px;
   }
+  #userName {
+    height: 20px;
+    width: 100%;
+  }
+  #email {
+    height: 20px;
+    width: 100%;
+  }
+  #message {
+    width: 100%;
+  }
+  #contact-button {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+  }
 }
 
 @media screen and (min-width: 791px) {
-  label {
-    width: 10%;
+  #contact {
+    label {
+      width: 10%;
+    }
+    #userName {
+      margin-left: 15%;
+    }
+    #email {
+      margin-left: 15%;
+    }
+    #message {
+      margin-left: 15%;
+    }
   }
-
-  #userName {
-    margin-left: 15%;
-  }
-
-  #email {
-    margin-left: 15%;
-  }
-
-  #message {
-    margin-left: 15%;
-  }
-}
-
-#userName {
-  height: 20px;
-  width: 100%;
-}
-
-#email {
-  height: 20px;
-  width: 100%;
-}
-
-#message {
-  width: 100%;
-  height: 100px;
-}
-
-button {
-  display: block;
-  margin: 0 auto;
-  background-color: black;
-  color: white;
-  height: 50px;
-  width: 100px;
 }
 
 footer {
@@ -267,10 +225,9 @@ footer {
   height: 100%;
   background-color: rgb(117, 114, 114);
   text-align: center;
-}
-
-footer p {
-  color: aliceblue;
+  footer p {
+    color: aliceblue;
+  }
 }
 
 @media screen and (max-width: 791px) {
@@ -278,53 +235,48 @@ footer p {
     width: 100%;
     height: auto;
     display: block;
-  }
-
-  .head {
-    width: 100%;
-    line-height: 70px;
-  }
-
-  header nav {
-    width: 100%;
-  }
-
-  .nav-list {
-    width: 70%;
-    justify-content: space-between;
-    padding: 20px;
+    .head {
+      width: 100%;
+      line-height: 70px;
+    }
+    nav {
+      width: 100%;
+      .nav-list {
+        width: 70%;
+        justify-content: space-between;
+        padding: 20px;
+      }
+    }
   }
 
   .wrapper {
     margin: 10%;
   }
 
-  #works ul li {
-    width: 100%;
-    height: auto;
-    text-align: center;
+  #works {
+    ul {
+      li {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        .img-item {
+          width: 100%;
+        }
+      }
+    }
   }
 
-  .img-item {
-    width: 100%;
-  }
-
-  #userName {
-    height: 20px;
-    width: 100%;
-  }
-
-  #email {
-    width: 100%;
-  }
-
-  #contact div {
-    display: block;
-    width: 100%;
-  }
-
-  #contact dd {
-    width: 100%;
-
+  #contact {
+    div {
+      display: block;
+      width: 100%;
+      #email {
+        width: 100%;
+        #userName {
+          height: 20px;
+          width: 100%;
+        }
+      }
+    }
   }
 }

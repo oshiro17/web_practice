@@ -1,0 +1,22 @@
+{
+  "name": "web_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oshiro17/web_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oshiro17/web_practice/issues"
+  },
+  "homepage": "https://github.com/oshiro17/web_practice#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
